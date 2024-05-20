@@ -19,7 +19,8 @@ Now, the second line of code that is visble in this screenshot shows how i have 
 
 ## Second 3D Modelling Experiment
 
-[My second 3D example code](/skills-github-pages/creativeCode/3D modelling_2/index.html)
+
+[My first 3D example code](/skills-github-pages/creativeCode/3D modelling_2/index.html)
 
 In this link that i have put you are able to see my second attempt at 3D modelling using the p5js.editor where my goal here, isnt to make some outstanding piece if work, but just to aim to further develop my work and make it unique and different from the original. So in the example of my 3D model you can see that what i have made is a cube, a cube that spins in all directions as well as having a unique property which is different from my first model as this cube changes colour instead of staying as one. 
 
@@ -29,7 +30,9 @@ In this screenshot for this code you are able to see how i have been able to giv
 
 After that, the two fill elements that can be seen shows the codes to create the two different colors that I wanted to use for the object, the first color being blue and the second being purple.
 
-<img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 14.22.28.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 14.38.50.png" alt="alt text" width="600" height="100">
+
+In this screenshot you can see how I have been able to spin this object in diagonaly rather than it spinning one way, so the line of code shows how i have made this difference from my first model shich is that I also made it so the cube rotates on the x-axis as well as the y-axis.
 
 
 
