@@ -21,6 +21,10 @@ Now, the second line of code that is visble in this screenshot shows how i have 
 
 [My second 3D example code](/skills-github-pages/creativeCode/3D modelling_2/index.html)
 
+In this link that i have put you are able to see my second attempt at 3D modelling using the p5js.editor where my goal here, isnt to make some outstanding piece if work, but just to aim to further develop my work and make it unique and different from the original. So in the example of my 3D model you can see that what i have made is a cube, a cube that spins in all directions as well as having a unique property which is different from my first model as this cube changes colour instead of staying as one. 
+
+<img src="/skills-github-pages/Images/Screenshot 2024-05-16 at 11.53.22.png" alt="alt text" width="600" height="100">
+
 
 
 
