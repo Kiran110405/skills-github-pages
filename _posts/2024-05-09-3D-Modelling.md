@@ -42,7 +42,9 @@ In that 3D model experiment I thought that I would make something much more uniq
 
 <img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 15.12.21.png" alt="alt text" width="600" height="100">
 
+In the above image you can see a snippet of code that I have taken from the my 3D modelling example. In this image, the code that is visible shows a unique feature that I have added to the object, which is how I have been able to manipulate light made within the p5js.editor and make it appear in areas around the object. Here, in the cide line you can see how I have added a feature where the placement of the light on the object depends where the user puts there mouse (which is a feature that can also be used within the code exmaple that I have given)
 
+<img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 15.12.21.png" alt="alt text" width="600" height="100">
 
 
 
