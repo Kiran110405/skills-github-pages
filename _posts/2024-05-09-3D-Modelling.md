@@ -38,7 +38,9 @@ In this screenshot you can see how I have been able to spin this object in diago
 
 [My first 3D example code](/skills-github-pages/creativeCode/3D modelling_1/index.html)
 
-In that 3D model experiment I thought that I would make something much more unique and different from the last two 3D exepriments that I have done, using a unique shape and make it look like somehting completetly different from the last experiments that I have done. In this example you can see that I have used a whole new shape along with changing the actual texture of that shape and below I will be explaining how I have done this
+In that 3D model experiment I thought that I would make something much more unique and different from the last two 3D exepriments that I have done, using a unique shape and make it look like somehting completetly different from the last experiments that I have done. In this example you can see that I have used a whole new shape along with changing the actual texture of that shape and below I will be explaining how I have done this.
+
+<img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 15.12.21.png" alt="alt text" width="600" height="100">
 
 
 
