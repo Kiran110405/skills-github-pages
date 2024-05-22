@@ -13,5 +13,7 @@ In this example of my work, you can see how i have altered an image in a way whe
 
 <img src="/skills-github-pages/Images/Car-image-1.png" alt="alt text" width="600" height="100">
 
+In this screemshot that I have taken directly from my code, this is a representation of how I have been able to, first of all, implement the image that I wanted to use so that I could edit and add filters upon it. The "loadImage" tag is how I am able to grab my image that I have saved from the file and able to bring it all the way to the p5js.editor and edit.
+
 
 
