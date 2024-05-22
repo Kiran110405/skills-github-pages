@@ -20,7 +20,7 @@ Now, the second line of code that is visble in this screenshot shows how i have 
 ## Second 3D Modelling Experiment
 
 
-[My first 3D example code](/skills-github-pages/creativeCode/3D modelling_2/index.html)
+[My second 3D example code](/skills-github-pages/creativeCode/3D modeling_2/index.html)
 
 In this link that i have put you are able to see my second attempt at 3D modelling using the p5js.editor where my goal here, isnt to make some outstanding piece if work, but just to aim to further develop my work and make it unique and different from the original. So in the example of my 3D model you can see that what i have made is a cube, a cube that spins in all directions as well as having a unique property which is different from my first model as this cube changes colour instead of staying as one. 
 
@@ -36,7 +36,7 @@ In this screenshot you can see how I have been able to spin this object in diago
 
 ## Third 3D Modelling Experiment
 
-[My first 3D example code](/skills-github-pages/creativeCode/3D modelling_1/index.html)
+[My third 3D example code](/skills-github-pages/creativeCode/3D modeling_1/index.html)
 
 In that 3D model experiment I thought that I would make something much more unique and different from the last two 3D exepriments that I have done, using a unique shape and make it look like somehting completetly different from the last experiments that I have done. In this example you can see that I have used a whole new shape along with changing the actual texture of that shape and below I will be explaining how I have done this.
 
@@ -44,8 +44,11 @@ In that 3D model experiment I thought that I would make something much more uniq
 
 In the above image you can see a snippet of code that I have taken from the my 3D modelling example. In this image, the code that is visible shows a unique feature that I have added to the object, which is how I have been able to manipulate light made within the p5js.editor and make it appear in areas around the object. Here, in the cide line you can see how I have added a feature where the placement of the light on the object depends where the user puts there mouse (which is a feature that can also be used within the code exmaple that I have given)
 
-<img src="/skills-github-pages/Images/Screenshot 2024-05-20 at 15.12.21.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Screenshot 2024-05-21 at 22.04.31.png" alt="alt text" width="600" height="100">
 
+In this screenshot, on the first line, you can see that the first code says "ambient material", ambient material means that the object is able to have light refelcted off of it and have it visible on the object. Aswell as the number next to it (250), it determermines the brightness and or darkness of the material on the object. So as I have set the number to 250 the material is a pretty even colour, however is I was to put the number lower, the material would be darker.
+
+What I tried to do with this but failed was that I wanted to try and create a heat signature effect with the object but i could find the exact codes or figure out how to do such so what i was left with was just that the ambient material would just appear light in certain areas depending on where the mouse is.
 
 
 
