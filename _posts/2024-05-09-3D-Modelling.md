@@ -20,7 +20,7 @@ Now, the second line of code that is visble in this screenshot shows how i have 
 ## Second 3D Modelling Experiment
 
 
-[My first 3D example code](/skills-github-pages/creativeCode/3D modelling_2/index.html)
+[My second 3D example code](/skills-github-pages/creativeCode/3D modeling_2/index.html)
 
 In this link that i have put you are able to see my second attempt at 3D modelling using the p5js.editor where my goal here, isnt to make some outstanding piece if work, but just to aim to further develop my work and make it unique and different from the original. So in the example of my 3D model you can see that what i have made is a cube, a cube that spins in all directions as well as having a unique property which is different from my first model as this cube changes colour instead of staying as one. 
 
@@ -36,7 +36,7 @@ In this screenshot you can see how I have been able to spin this object in diago
 
 ## Third 3D Modelling Experiment
 
-[My first 3D example code](/skills-github-pages/creativeCode/3D modelling_1/index.html)
+[My third 3D example code](/skills-github-pages/creativeCode/3D modeling_1/index.html)
 
 In that 3D model experiment I thought that I would make something much more unique and different from the last two 3D exepriments that I have done, using a unique shape and make it look like somehting completetly different from the last experiments that I have done. In this example you can see that I have used a whole new shape along with changing the actual texture of that shape and below I will be explaining how I have done this.
 
