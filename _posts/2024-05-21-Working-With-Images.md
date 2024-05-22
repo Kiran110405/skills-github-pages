@@ -7,7 +7,9 @@ The reason for why I wanted my second blog post to be experimentations with imag
 
 ## First Image eperiment within p5js.editor
 
-[My first 3D example code](/skills-github-pages/creativeCode/Image work_1/index.html)
+[My Working with images example](/skills-github-pages/creativeCode/Image-work_1/index.html)
+
+In this example of my work, you can see how i have altered an image in a way where the image is still the exact same, but there is a property of the image that was not there before, the flashing colours. 
 
 
 
