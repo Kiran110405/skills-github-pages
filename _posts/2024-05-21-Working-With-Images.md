@@ -23,7 +23,7 @@ The idea that I came up with was "what if I had the filter change into multiple 
 
 <img src="/skills-github-pages/Images/Car-image-1.png" alt="alt text" width="600" height="100">
 
-This screen shot is that same i had shown before but more focusing on the part of the code that actually allows the filter colours to change from one to another. How this is done is that the "frameCount" element that is there connects the filter/colours to the framecount within the p5js.editor. The 10 controls how quickly I want the filter to switch between the colours so that it doesnt change  
+This screen shot is that same i had shown before but more focusing on the part of the code that actually allows the filter colours to change from one to another. How this is done is that the "frameCount" element that is there connects the filter/colours to the framecount within the p5js.editor. The 10 controls how quickly I want the filter to switch between the colours so that it doesnt change too fast or too slow. 
 
 
 
