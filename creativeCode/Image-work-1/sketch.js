@@ -1,22 +1,18 @@
+let pic;
+
+function preload() {
+  pic = loadImage('Car.jpeg');
+}
+
 function setup() {
-  createCanvas(400, 400, WEBGL);
+  createCanvas(600, 400);
+  colorMode(HSB)
+  image(pic, 0, 0);
 }
 
 function draw() {
-text(frameCount%60,20,20) 
-  background(220);
-  fill(200,0,120)
+  background(pic);
   
-  let locX = mouseX - height / 2;
-  let locY = mouseY - width / 2;
-    
-  ambientLight(60, 60, 60);
-  pointLight(255, 255, 255, locX, locY, 100);
-  push()
-  //translate(0,0,mouseX+200)
-  rotateY(frameCount/100)
-  rotateZ(frameCount/100)
-  ambientMaterial(250);
-  torus(100,30,500)
-  pop()
+  tint(frameCount*10%360,500,200)
+  
 }
