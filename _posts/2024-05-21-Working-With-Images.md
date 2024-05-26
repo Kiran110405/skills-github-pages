@@ -5,7 +5,7 @@ Date: 2024-05-21
 
 The reason for why I wanted my second blog post to be experimentations with images within the p5js.editor is because i enjoy editing pictures such as adding filters to them, collages and just making the original photo seem similar but also distinctly different to the new image thatI was able to produce with it. As well as this, I also enjoy the idea of playing with images and manipulating their properties to see what I am able to and not able to change about them.
 
-## First Image eperiment within p5js.editor
+## First Image eperiment within p5js.editor (multiple filter)
 
 [My Working with images example](/skills-github-pages/creativeCode/Image-work-1/index.html)
 
@@ -21,9 +21,15 @@ This is another screenshot that I have taken from my code for this work of mine 
 
 The idea that I came up with was "what if I had the filter change into multiple colours?". The reason for why I came up with this idea is because I remembered that is the early stages of our creative coding lessons, one thing we were taught was how we could give an object multiple colours, aswell as this, I had also used the same technqiue in my 3D modelling examples witht ehc ube and how I made that change into multiple colours. 
 
-<img src="/skills-github-pages/Images/Car-image-1.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Car-image-3.png" alt="alt text" width="600" height="100">
 
-This screen shot is that same i had shown before but more focusing on the part of the code that actually allows the filter colours to change from one to another. How this is done is that the "frameCount" element that is there connects the filter/colours to the framecount within the p5js.editor. The 10 controls how quickly I want the filter to switch between the colours so that it doesnt change  
+This screen shot is that same i had shown before but more focusing on the part of the code that actually allows the filter colours to change from one to another. How this is done is that the "frameCount" element that is there connects the filter/colours to the framecount within the p5js.editor. The 10 controls how quickly I want the filter to switch between the colours so that it doesnt change too fast or too slow.
+
+So this was my first experimentation with images and was mostly a task for me to understand how images work within the p5js.editor and to get a grasp on the concept, to see what is and what isnt possible.
+
+## Second Image eperiment within p5js.editor (collage)
+
+
 
 
 
