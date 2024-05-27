@@ -78,6 +78,7 @@ So this was my first experimentation with images and was mostly a task for me to
 
 [My Working with images example](/skills-github-pages/creativeCode/Image-work-6/index.html)
 
+In this image experiment using the p5js.editor, I had taken it a much bigger step further than the original prieces of work that I had alreadu done. In this example that you can see above, I have created something that is completely new and unique. What this does is, I havent gotten the image from anywhere, that it actually takes the image from what the camera on the computer/laptop has in its view, and with that image, it slowly brings the image together by creating little pixels that slowly bring the image together. However, once the image is created, it isnt a fuly realistic high quality picture, but rather a more dotted image, a picture that was painted rather than photographially replicated.
 
 
 
