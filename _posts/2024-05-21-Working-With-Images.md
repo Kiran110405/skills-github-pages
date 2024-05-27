@@ -124,6 +124,11 @@ capture = createCapture(VIDEO)
 to produce a picture as the end result. I thought that this would be a new way of working with images along with a different perpsepective on how I could tackle this task that I have set myself. Using a video to create a picture that is formed with effects that I have implemented myself. 
 
 
+My inspiration for this coding technique came from and online tutorial that I had found on YouTube.
+
+reference: Xin Xin (7th April 2020), 1.2: Pointillist Filter - Experimental Camera - p5.js Tutorial, https://www.youtube.com/watch?v=aza-3oZjY4g, accessed 21tst May 2024
+
+
 
 
 
