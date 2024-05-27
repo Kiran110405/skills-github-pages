@@ -33,7 +33,20 @@ function draw() {
 
 You can see from these lines of code that I have pulled fromt eh first example, how I have been able to add the "POSTERIZE" filter to the image of the Avengers. To do this I added the element "filter" and within brackets added the filter that I wanted to use (those that were available within the p5js.editor. The number within the brackets, the 3, allows me to be able to choose how much or how little I was to POSTERIZE the image, 3 being so that the FIlter is clearly visible but if it was to be any higher the PASTERIZE would be alot more significant.
 
-my inspiration for this work of using different filters on images stems from a youtube tutorial that I saw, where a creator was using p5js.editor to add filters to their own images.
+Now I am going to choose another example of code that shows one of my favourite filters out of them all and the one that really got me attracted to using the filters in the first place was the blur filter:
+
+,,
+
+function draw() {
+  background(220);
+  image(img,0,0)
+       filter(BLUR, 6);
+}
+,,
+
+As you can see that this is exaclty the same from the last line of code that I had demonstrated accept from the fact that the word inside of the brackets is no longer POSTERIZE but is now rather BLUR. This shows how I have now added the blur element to the image. 
+
+my inspiration for this work of using different filters on images stems from a youtube tutorial that I saw, where a creator was using p5js.editor to add filters to their own images. As well as work that we had done with images in lessons/ worksops together.
 
 reference: Thompson, J. (24th Febuary 2021), CP2: Other Image Filters – Image Filters, https://www.youtube.com/watch?v=oR-v9mnyLIs, accessed 14th May 2024
 
