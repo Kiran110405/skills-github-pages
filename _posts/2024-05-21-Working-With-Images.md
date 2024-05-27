@@ -80,6 +80,49 @@ So this was my first experimentation with images and was mostly a task for me to
 
 In this image experiment using the p5js.editor, I had taken it a much bigger step further than the original prieces of work that I had alreadu done. In this example that you can see above, I have created something that is completely new and unique. What this does is, I havent gotten the image from anywhere, that it actually takes the image from what the camera on the computer/laptop has in its view, and with that image, it slowly brings the image together by creating little pixels that slowly bring the image together. However, once the image is created, it isnt a fuly realistic high quality picture, but rather a more dotted image, a picture that was painted rather than photographially replicated.
 
+,,
+
+ capture.loadPixels();
+ 
+ ,,
+
+This line of code from this piece of work that I made allows me to, in a way, call to the pixels so that I can put them into an array and give them a job to do in my code, in this case it would be the pixels coming together to re-create the image that is being captured from the computers camera.
+
+,,
+
+ let x1 = random(capture.width);
+ let y1 = random(capture.height);
+  
+ let c = capture.get(x1, y1);
+ 
+,,
+
+ The first two lines of code from above, that are also in the actual code of my work, shows how I have decided to place each pixel and how I wanted the do move randomly abd appear in different places without them being given any orders in how they should form together to create the picture that the camera is capturing. This can be seen being implemented when I had put "random(capture.width)". Allowing the pixels to spawn in at random imgaes within the canvas.
+
+ ,,
+
+  cg.noStroke()
+  cg.fill(c);
+  cg.ellipse(x1,y1,10,10)
+
+  ,,
+
+  Here, these lines of code show how I have designed the small objects that work with the pixels to create the image. The first line of code saying "noStroke". What this line of code means that the objects that are spawning in to create the image are not given an outline. The reason for why I have added noStroke is because I still want the image to look like a picture and to be still clear of what the user is seeing, where as if I was to add a Stroke, the objects will have outlines and the image wont be as clear to the user as I intend it to be as lines and colours would be breaking the image up.
+
+The other line of text that says "ellipse(x1,y1,10,10) is the object that I wanted to use that would appear on the canvas and gradually bring the image together. The "ellipse" element is how you would render in circles using the p5js.editor, and as you can see from my working example, the objects that come together to create the image are circles. Along with this, within the brackets you can see that I have added more code/ detail to the ellipses. For example, within the bracket, it says "x1, y1". If you look back to the first lines of code that I have already shown, I have set "x1" and "y1" to "random", so the "x1" and "y1" gives the ellipses the instrucions to spawn in at random places within the canvas to create the overall image. 
+
+However, with this experiment, the overall picture/image that is produced just changes, this is caused my the actions that are happening by the person/ object on the camera in real time, So the image that is being conjured isnt of what was there once, but rather the overall image/ picture that is being created is taking in all real-time events that are happening and using all of that to create one image. Through my experimentations I have tried to find ways that I would be able to fix this problem.
+
+So, this example that I have produced aims and does in fact take to seprate techniques together, where i use the p5js.editor to use the camera on the device using video element in the p5js.editor:
+
+''
+
+capture = createCapture(VIDEO)
+
+,,
+
+to produce a picture as the end result. I thought that this would be a new way of working with images along with a different perpsepective on how I could tackle this task that I have set myself. Using a video to create a picture that is formed with effects that I have implemented myself. 
+
 
 
 
