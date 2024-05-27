@@ -48,7 +48,7 @@ As you can see that this is exaclty the same from the last line of code that I h
 
 my inspiration for this work of using different filters on images stems from a youtube tutorial that I saw, where a creator was using p5js.editor to add filters to their own images. As well as work that we had done with images in lessons/ worksops together.
 
-reference: Thompson, J. (24th Febuary 2021), CP2: Other Image Filters – Image Filters, https://www.youtube.com/watch?v=oR-v9mnyLIs, accessed 14th May 2024
+reference: Thompson, J. (24th Febuary 2021), CP2: Other Image Filters – Image Filters, https://www.youtube.com/watch?v=oR-v9mnyLIs, accessed 21tst May 2024
 
 
 
