@@ -16,7 +16,26 @@ The reason for why I wanted my second blog post to be experimentations with imag
 
 [My Working with images example](/skills-github-pages/creativeCode/Image-work-5/index.html)
 
-This is my first attempt/ experiences with playing with images within the p5js.editor. As you xan see from this link above is my image 
+This is my first attempt/ experiences with playing with images within the p5js.editor. As you xan see from this link above is my images of the different filters that I used to demonstrate examples that a made witha wide variety of different filters that I had added to the images.
+
+In the first link that I provided was a "posterize" filter that dramatically changes the texture and color vibrancy of the image making the colours appear much lighter and vibrant and the actually texture of the image looks alot less realistic, which is what the aim of the original image was, and created a more doodle like, thick type of texture. The code that was able to do this is seen below:
+
+,,
+
+function draw() {
+  background(220);
+  image(img,0,0)
+       filter(POSTERIZE, 3);
+  
+}
+
+,,
+
+You can see from these lines of code that I have pulled fromt eh first example, how I have been able to add the "POSTERIZE" filter to the image of the Avengers. To do this I added the element "filter" and within brackets added the filter that I wanted to use (those that were available within the p5js.editor. The number within the brackets, the 3, allows me to be able to choose how much or how little I was to POSTERIZE the image, 3 being so that the FIlter is clearly visible but if it was to be any higher the PASTERIZE would be alot more significant.
+
+my inspiration for this work of using different filters on images stems from a youtube tutorial that I saw, where a creator was using p5js.editor to add filters to their own images.
+
+reference: Thompson, J. (24th Febuary 2021), CP2: Other Image Filters – Image Filters, https://www.youtube.com/watch?v=oR-v9mnyLIs, accessed 14th May 2024
 
 
 
