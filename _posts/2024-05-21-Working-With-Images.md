@@ -5,7 +5,14 @@ Date: 2024-05-21
 
 The reason for why I wanted my second blog post to be experimentations with images within the p5js.editor is because i enjoy editing pictures such as adding filters to them, collages and just making the original photo seem similar but also distinctly different to the new image thatI was able to produce with it. As well as this, I also enjoy the idea of playing with images and manipulating their properties to see what I am able to and not able to change about them.
 
-## First Image eperiment within p5js.editor (multiple filter)
+# First Image experiment within p5js.editor (Filters)
+
+
+[My Working with images example](/skills-github-pages/creativeCode/Image-work-2/index.html)
+
+
+
+## Second Image eperiment within p5js.editor (Multiple filter)
 
 [My Working with images example](/skills-github-pages/creativeCode/Image-work-1/index.html)
 
@@ -27,7 +34,7 @@ This screen shot is that same i had shown before but more focusing on the part o
 
 So this was my first experimentation with images and was mostly a task for me to understand how images work within the p5js.editor and to get a grasp on the concept, to see what is and what isnt possible.
 
-## Second Image eperiment within p5js.editor (collage)
+
 
 
 
