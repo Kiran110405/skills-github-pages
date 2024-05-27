@@ -74,7 +74,9 @@ This screen shot is that same i had shown before but more focusing on the part o
 
 So this was my first experimentation with images and was mostly a task for me to understand how images work within the p5js.editor and to get a grasp on the concept, to see what is and what isnt possible.
 
+## My third Image eperiment within p5js.editor
 
+[My Working with images example](/skills-github-pages/creativeCode/Image-work-6/index.html)
 
 
 
