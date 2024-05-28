@@ -42,6 +42,7 @@ function draw() {
   image(img,0,0)
        filter(BLUR, 6);
 }
+
 ,,
 
 As you can see that this is exaclty the same from the last line of code that I had demonstrated accept from the fact that the word inside of the brackets is no longer POSTERIZE but is now rather BLUR. This shows how I have now added the blur element to the image. 
