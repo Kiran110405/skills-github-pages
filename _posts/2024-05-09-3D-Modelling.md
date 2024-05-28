@@ -4,6 +4,8 @@ Date: 2024-05-09
 # 3D Modelling
 ## These are my variations and experiments of using 3D modeling on p5.js editor
 
+The reason for why I wanted to work with 3D models within the p5js.editor is because i thought that they looked very, very unique and something completely different to work with compared to other work that we have done in lesson before. So for that reason I wanted my first blog post to be about me experimenting and working with 3D models and seeing the different techniques and ways that I would be able to utilize them in.
+
 
 ## First 3D Modelling Experiment
 
