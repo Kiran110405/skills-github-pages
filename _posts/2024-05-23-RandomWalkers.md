@@ -31,6 +31,21 @@ Here you can see how I have actually created the point that moves randomly along
 
 [My Working with images example](/skills-github-pages/creativeCode/Random-walker-2/index.html)
 
+This example of Random Walkers is something that is completely different from my previous example. The example that I made is intended to seem like that of waves in the ocean, a smooth, fluid like motion that you be big or small at any point in time. This image is a mix between the random walkers technique and also perlin motion.
+
+Perlin motion: a procedural texture primitive, a type of gradient noise used by visual effects artists to increase the appearance of realism in computer graphics. Hence the reason for why the motion of the waves are not blocky but rather silky and smooth almost as if they are real waves.
+
+reference: wikipedia, last edited:28 May 2024, at 22:54, https://en.wikipedia.org/wiki/Perlin_noise#:~:text=significant%20directional%20artifacts.-,Uses,details%20are%20the%20same%20size.
+
+``
+let yIncrement = 0.01;
+
+let timeIncrement = 0.01;
+
+let timeOffset = 0;
+``
+
+
 
 
 
