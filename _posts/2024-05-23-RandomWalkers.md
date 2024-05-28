@@ -38,11 +38,13 @@ Perlin motion: a procedural texture primitive, a type of gradient noise used by 
 reference: wikipedia, last edited:28 May 2024, at 22:54, https://en.wikipedia.org/wiki/Perlin_noise#:~:text=significant%20directional%20artifacts.-,Uses,details%20are%20the%20same%20size.
 
 ``
+
 let yIncrement = 0.01;
 
 let timeIncrement = 0.01;
 
 let timeOffset = 0;
+
 ``
 
 
