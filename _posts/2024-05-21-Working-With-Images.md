@@ -35,7 +35,7 @@ You can see from these lines of code that I have pulled fromt eh first example, 
 
 Now I am going to choose another example of code that shows one of my favourite filters out of them all and the one that really got me attracted to using the filters in the first place was the blur filter:
 
-,,
+``
 
 function draw() {
   background(220);
@@ -43,7 +43,7 @@ function draw() {
        filter(BLUR, 6);
 }
 
-,,
+``
 
 As you can see that this is exaclty the same from the last line of code that I had demonstrated accept from the fact that the word inside of the brackets is no longer POSTERIZE but is now rather BLUR. This shows how I have now added the blur element to the image. 
 
