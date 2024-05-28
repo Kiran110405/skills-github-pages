@@ -9,12 +9,5 @@ The reasom for why I have chosen random walkers for my third blog post of differ
 
 In the link above you are able to view my first experiment that I have done in the p5js.editor in regards to creating "Random Walkers". In the experiment I have started with something simple but which also has a unique property. I created a singulare line that moves in any random direction in which it pleases and while it does this, it was chooses random colours that the line wants to become while the line moves itself around the canvas.
 
-``
-let x;
-let y;
 
-let r;
-let g;
-let b;
-``
 
