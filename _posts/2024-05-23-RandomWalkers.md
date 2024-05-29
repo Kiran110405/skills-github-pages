@@ -11,19 +11,19 @@ The reasom for why I have chosen random walkers for my third blog post of differ
 
 In the link above you are able to view my first experiment that I have done in the p5js.editor in regards to creating "Random Walkers". In the experiment I have started with something simple but which also has a unique property. I created a singulare line that moves in any random direction in which it pleases and while it does this, it was chooses random colours that the line wants to become while the line moves itself around the canvas.
 
-<img src="/skills-github-pages/Random-walkers-1.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-1.png" alt="alt text" width="600" height="100">
 
 This screenshot taken from the code from this Random Walkers work shows how I have started the ocde by setting some variables. The reason for this is so that I can, at all, at the inststructions of code needed for this random walker to work, so plays a significant role in starting the code.
 
-<img src="/skills-github-pages/Random-walkers-2.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-2.png" alt="alt text" width="600" height="100">
 
 In this screenshot you can see how I added the colours to my random walker experiment, implementing different colours and occur and also blend together as the random walker continues to play. I had done this by adding max colours (225) to the "r", "g" and "b" elements that I had implemented into the code. So that I could have all the colours mixed together rather than having just one colour for the whole length that the code plays out for. 
 
-<img src="/skills-github-pages/Random-walkers-3.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-3.png" alt="alt text" width="600" height="100">
 
 In this screenshot is, what could be considered, the core of the of the whole code for the random walkers. This is because these two lines of code allow the point that is displayed in the final product to move randomly around the page of the canvas overtime. Giving the line random positions to move too.
 
-<img src="/skills-github-pages/Random-walkers-4.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-4.png" alt="alt text" width="600" height="100">
 
 Here you can see how I have actually created the point that moves randomly along the canvas. In the stroke I have used the variables "r,g and b", which are the variables that contain the colours that I want to use, so this is how I am going to implement these colours and make them appear and blend together as the point moves.
 
