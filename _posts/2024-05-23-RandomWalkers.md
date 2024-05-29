@@ -67,7 +67,13 @@ These lines of code show how i added the colour to the wave (blue) to make it lo
 
 ## My third experiment with Random Walkers
 
-[My Working with images example](/skills-github-pages/creativeCode/Random-walker-3/index.html)
+[My Working with images example](/skills-github-pages/creativeCode/Random-walker-4/index.html)
+
+this code experiment that I have made is a different variation of a technique that is also related to working with random walkers. This code is a mixture of both random and noise working together to create a subtlte yet vibrant piece of work. The reason for why I call this wordk subtle is by the way that the colours and shapes slowly disapear once they have moved and that they do this repetitively as they move around. Along with the way that there are a variety different shapes and the shapes are nice and round rather than sharp and blovky making the movenments of the shapes seem smooth.
+
+
+
+
 
 
 
