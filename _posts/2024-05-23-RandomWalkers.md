@@ -11,7 +11,7 @@ The reasom for why I have chosen random walkers for my third blog post of differ
 
 In the link above you are able to view my first experiment that I have done in the p5js.editor in regards to creating "Random Walkers". In the experiment I have started with something simple but which also has a unique property. I created a singulare line that moves in any random direction in which it pleases and while it does this, it was chooses random colours that the line wants to become while the line moves itself around the canvas.
 
-<img src="/skills-github-pages/Images/Random-walkers-1.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-1.png" alt="alt text" width="1000" height="500">
 
 This screenshot taken from the code from this Random Walkers work shows how I have started the ocde by setting some variables. The reason for this is so that I can, at all, at the inststructions of code needed for this random walker to work, so plays a significant role in starting the code.
 
@@ -70,6 +70,26 @@ These lines of code show how i added the colour to the wave (blue) to make it lo
 [My Working with images example](/skills-github-pages/creativeCode/Random-walker-4/index.html)
 
 this code experiment that I have made is a different variation of a technique that is also related to working with random walkers. This code is a mixture of both random and noise working together to create a subtlte yet vibrant piece of work. The reason for why I call this wordk subtle is by the way that the colours and shapes slowly disapear once they have moved and that they do this repetitively as they move around. Along with the way that there are a variety different shapes and the shapes are nice and round rather than sharp and blovky making the movenments of the shapes seem smooth.
+
+Where I mad got my inspiration for this piece of work was from both my first random walkers experiment but also work that we have gone over and reviewed in lesson time aswell. For example, I had gotten the inspiration for the colours from my first work where the line changes colours and the actual function of the code being similar to that of the work reviewed in class.
+
+``
+ background(0,8);
+
+``
+
+An integral part of the code that makes this experiment work is actually how I edit the background of the canvas. What I have done to the background is I have made it almost transparent like. To explain, I have made the background have almost this second layer wear you can see the shapes slowly fading away behind as they move around. I have done this by making the background colour black (0) and adding an extra number to choose how transparent I wish the background to be (8). This gives the effect of the shapes slowly disapearing.
+
+``
+
+translate(mx, my);
+  rect(x, y, w, h, r, g, b);
+
+,,
+
+These two lines of code here do two different things. The first line of code "translate (mx, my)" is what allows the shapes to move around the page and how we can translate the instructions to work that the shapes all move around the page randomly. The second line of code, this is how I have designed the rectangles that are on display, you can see that within the brackets are alot of different letters, the reason for this is because I wanted to give the rectangles the properties that I have already implemented for them in the code. I needed to add these variables so that they attach to the shapes. 
+
+
 
 
 
