@@ -47,6 +47,30 @@ let timeOffset = 0;
 
 ``
 
+These lines of code that are visible above allow me to control the waves and how I want them too look and act, but still in a randomised pattern that is unpredictable.
+
+the first line (yIncrement) controls how rigid and sharp I want the waves to look. So this is controlled between 0 and 1 and here in my code I have set the yIncrement very low (0.01) so that the waves are more fluid and smooth and rperesent that of and actuall wave that you would find in a ocean instead of sharp and jaggedy.
+
+the second line (timeIncrement) controls how fast I want the waves to move during time. The same rules apply to this increment the same as it does with he first, I want the motions of the waves to be nice and slow so I have set the number to be very very low onece again (0.01) to give it more that real-life effect.
+
+The final increment (timeOffset) is so that the frame shifts so it gives it the look that the wave is moving.
+
+``
+
+ fill(0,50,200);
+  noStroke();
+  beginShape();
+
+``
+
+These lines of code show how i added the colour to the wave (blue) to make it look like that of an ocean, and I also added noStroke so that the wave doesnt have an outline around it to make it look cartoonish, but so that it doesnt havent an out line and looks more natural and well implemented into the canvas.
+
+## My third experiment with Random Walkers
+
+[My Working with images example](/skills-github-pages/creativeCode/Random-walker-3/index.html)
+
+
+
 
 
 
