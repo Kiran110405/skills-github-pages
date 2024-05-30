@@ -50,4 +50,6 @@ These lines of code are used to set the speed that the structured atoms moves at
 
 What this code does is basically form the shape of the structure. This part of the code here, I had used it from a reference page on p5js.editor where there was a piece of work that did something very similar to this is the sense that it also had its own structure also. So, after playing with this line of code, I could straight away see a huge difference in what could happen to the structure. If I was to change the 12 variable on the first line the shape would almost squeeze back into itself and create a whole new structure which is visible from the image below:
 
+
+
 reference: Ben Fry and Casey Reas, date accessed 29th May, https://p5js.org.
