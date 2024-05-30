@@ -1,4 +1,4 @@
-Title: My first post: Showcase Piece
+Title: Showcase Piece
 Date: 2024-26-09
 
 # Showcase Piece
