@@ -17,6 +17,15 @@ Another feature that you can see that I have added to this showcase piece is I h
 
 ```
 
+createCanvas(710, 400, WEBGL);
+
+```
+
+This line of code is very vital for when you are creating any type of 3D projects within the p5js.editor. The reason for this is because the WEBGL is a core piece when working with 3D objects due to that fact the this element is used for computational tasks such as that as working with 3D objects. This is because this allows the orginal pointf of the shape to change to (0,0,0) which is located in the centre of the screen, as without WEBGL, the programme would make the shape start at the top left corner of the canvas. 
+
+
+```
+
 let radius = width * 1.5;
 
 ```
@@ -53,6 +62,12 @@ What this code does is basically form the shape of the structure. This part of t
 
 <img src="/skills-github-pages/Images/Random-walkers-6.png" alt="alt text" width="1000" height="500">
 
+The second line of code is what gives the space between the spheres, so that they are spreading out enough to complete to full structure and bring it all together. So this line of code controls the soace measured between each sphere in the structure. 
+
 So from this image you can see that you are able to see the same structure but The rings have changed position to be right next to each other instead of spaced out instead of being spaced out to create that atom structure.
 
+So this is my final showcase piece, I have used 3D shapes (spheres) to bring together a whole 3D structure that its aimed goal is to be that of an atom. I have added a variety of different properties to this work such as the shpears having multiple colours, an orbital feature that allows to user to zoom in and out of the structure aswell as also being able to turn it and a feature that actually lets the structure spin on its own. What I had found most challenging about this task that I gave myslef was to find the right structure that I wanted. But I am very pleased with my overall work.
+
 reference: Ben Fry and Casey Reas, date accessed 29th May, https://p5js.org.
+
+reference: Ben Fry and Casey Reas, date accessed 29th May, https://p5js.org/reference/#/p5/WEBGL
