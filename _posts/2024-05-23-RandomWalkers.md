@@ -37,7 +37,7 @@ Perlin motion: a procedural texture primitive, a type of gradient noise used by 
 
 reference: wikipedia, last edited:28 May 2024, at 22:54, https://en.wikipedia.org/wiki/Perlin_noise#:~:text=significant%20directional%20artifacts.-,Uses,details%20are%20the%20same%20size.
 
-``
+```
 
 let yIncrement = 0.01;
 
@@ -45,7 +45,7 @@ let timeIncrement = 0.01;
 
 let timeOffset = 0;
 
-``
+```
 
 These lines of code that are visible above allow me to control the waves and how I want them too look and act, but still in a randomised pattern that is unpredictable.
 
@@ -55,13 +55,13 @@ the second line (timeIncrement) controls how fast I want the waves to move durin
 
 The final increment (timeOffset) is so that the frame shifts so it gives it the look that the wave is moving.
 
-``
+```
 
  fill(0,50,200);
   noStroke();
   beginShape();
 
-``
+```
 
 These lines of code show how i added the colour to the wave (blue) to make it look like that of an ocean, and I also added noStroke so that the wave doesnt have an outline around it to make it look cartoonish, but so that it doesnt havent an out line and looks more natural and well implemented into the canvas.
 
@@ -73,30 +73,30 @@ this code experiment that I have made is a different variation of a technique th
 
 Where I mad got my inspiration for this piece of work was from both my first random walkers experiment but also work that we have gone over and reviewed in lesson time aswell. For example, I had gotten the inspiration for the colours from my first work where the line changes colours and the actual function of the code being similar to that of the work reviewed in class.
 
-``
+```
  background(0,8);
 
-``
+```
 
 An integral part of the code that makes this experiment work is actually how I edit the background of the canvas. What I have done to the background is I have made it almost transparent like. To explain, I have made the background have almost this second layer wear you can see the shapes slowly fading away behind as they move around. I have done this by making the background colour black (0) and adding an extra number to choose how transparent I wish the background to be (8). This gives the effect of the shapes slowly disapearing.
 
-``
+```
 
 translate(mx, my);
   rect(x, y, w, h, r, g, b);
 
-,,
+``
 
 These two lines of code here do two different things. The first line of code "translate (mx, my)" is what allows the shapes to move around the page and how we can translate the instructions to work that the shapes all move around the page randomly. The second line of code, this is how I have designed the rectangles that are on display, you can see that within the brackets are alot of different letters, the reason for this is because I wanted to give the rectangles the properties that I have already implemented for them in the code. I needed to add these variables so that they attach to the shapes. 
 
-,,
+``
 
  let w=random(5,40);
   let h=random(5,40);
   let x=random(-50,50);
   let y=random(-50,50);
 
- ,,
+ ``
 
  These lines of code are for the shapes and objects and how I want to make them look during the working example and I will explain what each line of code does here:
 
