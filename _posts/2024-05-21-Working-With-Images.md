@@ -20,7 +20,7 @@ This is my first attempt/ experiences with playing with images within the p5js.e
 
 In the first link that I provided was a "posterize" filter that dramatically changes the texture and color vibrancy of the image making the colours appear much lighter and vibrant and the actually texture of the image looks alot less realistic, which is what the aim of the original image was, and created a more doodle like, thick type of texture. The code that was able to do this is seen below:
 
-,,
+```
 
 function draw() {
   
@@ -32,13 +32,13 @@ function draw() {
   
 }
 
-,,
+```
 
 You can see from these lines of code that I have pulled fromt eh first example, how I have been able to add the "POSTERIZE" filter to the image of the Avengers. To do this I added the element "filter" and within brackets added the filter that I wanted to use (those that were available within the p5js.editor. The number within the brackets, the 3, allows me to be able to choose how much or how little I was to POSTERIZE the image, 3 being so that the FIlter is clearly visible but if it was to be any higher the PASTERIZE would be alot more significant.
 
 Now I am going to choose another example of code that shows one of my favourite filters out of them all and the one that really got me attracted to using the filters in the first place was the blur filter:
 
-``
+```
 
 function draw() {
 
@@ -49,7 +49,7 @@ function draw() {
   filter(BLUR, 6);
 }
 
-``
+```
 
 As you can see that this is exaclty the same from the last line of code that I had demonstrated accept from the fact that the word inside of the brackets is no longer POSTERIZE but is now rather BLUR. This shows how I have now added the blur element to the image. 
 
@@ -87,15 +87,15 @@ So this was my first experimentation with images and was mostly a task for me to
 
 In this image experiment using the p5js.editor, I had taken it a much bigger step further than the original prieces of work that I had alreadu done. In this example that you can see above, I have created something that is completely new and unique. What this does is, I havent gotten the image from anywhere, that it actually takes the image from what the camera on the computer/laptop has in its view, and with that image, it slowly brings the image together by creating little pixels that slowly bring the image together. However, once the image is created, it isnt a fuly realistic high quality picture, but rather a more dotted image, a picture that was painted rather than photographially replicated.
 
-,,
+```
 
  capture.loadPixels();
  
- ,,
+```
 
 This line of code from this piece of work that I made allows me to, in a way, call to the pixels so that I can put them into an array and give them a job to do in my code, in this case it would be the pixels coming together to re-create the image that is being captured from the computers camera.
 
-,,
+```
 
  let x1 = random(capture.width);
  
@@ -103,11 +103,11 @@ This line of code from this piece of work that I made allows me to, in a way, ca
   
  let c = capture.get(x1, y1);
  
-,,
+```
 
  The first two lines of code from above, that are also in the actual code of my work, shows how I have decided to place each pixel and how I wanted the do move randomly abd appear in different places without them being given any orders in how they should form together to create the picture that the camera is capturing. This can be seen being implemented when I had put "random(capture.width)". Allowing the pixels to spawn in at random imgaes within the canvas.
 
- ,,
+```
 
   cg.noStroke()
   
@@ -115,7 +115,7 @@ This line of code from this piece of work that I made allows me to, in a way, ca
   
   cg.ellipse(x1,y1,10,10)
 
-  ,,
+```
 
   Here, these lines of code show how I have designed the small objects that work with the pixels to create the image. The first line of code saying "noStroke". What this line of code means that the objects that are spawning in to create the image are not given an outline. The reason for why I have added noStroke is because I still want the image to look like a picture and to be still clear of what the user is seeing, where as if I was to add a Stroke, the objects will have outlines and the image wont be as clear to the user as I intend it to be as lines and colours would be breaking the image up.
 
@@ -125,11 +125,11 @@ However, with this experiment, the overall picture/image that is produced just c
 
 So, this example that I have produced aims and does in fact take to seprate techniques together, where i use the p5js.editor to use the camera on the device using video element in the p5js.editor:
 
-''
+```
 
 capture = createCapture(VIDEO)
 
-,,
+```
 
 to produce a picture as the end result. I thought that this would be a new way of working with images along with a different perpsepective on how I could tackle this task that I have set myself. Using a video to create a picture that is formed with effects that I have implemented myself. 
 
