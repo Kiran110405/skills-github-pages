@@ -92,6 +92,7 @@ This line of code from this piece of work that I made allows me to, in a way, ca
 ,,
 
  let x1 = random(capture.width);
+ 
  let y1 = random(capture.height);
   
  let c = capture.get(x1, y1);
@@ -103,7 +104,9 @@ This line of code from this piece of work that I made allows me to, in a way, ca
  ,,
 
   cg.noStroke()
+  
   cg.fill(c);
+  
   cg.ellipse(x1,y1,10,10)
 
   ,,
