@@ -23,7 +23,7 @@ In this screenshot you can see how I added the colours to my random walker exper
 
 In this screenshot is, what could be considered, the core of the of the whole code for the random walkers. This is because these two lines of code allow the point that is displayed in the final product to move randomly around the page of the canvas overtime. Giving the line random positions to move too.
 
-<img src="/skills-github-pages/Images/Random-walkers-4.png" alt="alt text" width="600" height="100">
+<img src="/skills-github-pages/Images/Random-walkers-5.png" alt="alt text" width="600" height="100">
 
 Here you can see how I have actually created the point that moves randomly along the canvas. In the stroke I have used the variables "r,g and b", which are the variables that contain the colours that I want to use, so this is how I am going to implement these colours and make them appear and blend together as the point moves.
 
@@ -88,6 +88,28 @@ translate(mx, my);
 ,,
 
 These two lines of code here do two different things. The first line of code "translate (mx, my)" is what allows the shapes to move around the page and how we can translate the instructions to work that the shapes all move around the page randomly. The second line of code, this is how I have designed the rectangles that are on display, you can see that within the brackets are alot of different letters, the reason for this is because I wanted to give the rectangles the properties that I have already implemented for them in the code. I needed to add these variables so that they attach to the shapes. 
+
+,,
+
+ let w=random(5,40);
+  let h=random(5,40);
+  let x=random(-50,50);
+  let y=random(-50,50);
+
+ ,,
+
+ These lines of code are for the shapes and objects and how I want to make them look during the working example and I will explain what each line of code does here:
+
+let w=random(5,40): this line, the first, line of code determines how wide I want the skhapes to be displayed will the code is working. So if I was to change the 5 to something much higher, such as 100, the shapes would be alot wider than they are now. The second number (40) controls how far the shapes are spaces out from each other, so again, if they number is much higher, then the space between the shapes are going to be much greater.
+
+let h=random(5,40): This line of code is different from the first, the reason for this is because instead of changing the width of the shape, it changes the height that the shape is going to be. So again, if I was to change the number 5 to something greater, the height of the shapes being displayed would increase.
+
+ let x=random(-50,50), let y=random(-50,50): These two lines of code do almost the same thing, they change how spread out the shaoes are going to be from one another. So if I was to change the -50 to something like 50, the shapes would be much more closer together than they would normally be. If I was to make the number something like -500, the shapes would be much more spread out. 
+
+ These are my experiments that I have carried out with RandomWalkers and and tried a variety of different ways in which I could express these ideas. I went from a point moving randoly around a canvas to a relaistic wave effect and finally to multiple shapes randomly moving around with a multi-colour property and fading effects that occur behind them.
+
+ What I had found most difficult with the randomwalkers experiments was trying to work with the variables and how I would code them so that they fit each other and make the actual code run well. But what I found the easiest part of the code was just adding the fill colour and adding the strokes to the images to give them more of a creative effect and simplistic, yet quality, designs.
+ 
 
 
 
