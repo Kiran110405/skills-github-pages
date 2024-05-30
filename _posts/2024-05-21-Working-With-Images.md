@@ -23,9 +23,12 @@ In the first link that I provided was a "posterize" filter that dramatically cha
 ,,
 
 function draw() {
+  
   background(220);
+  
   image(img,0,0)
-       filter(POSTERIZE, 3);
+  
+  filter(POSTERIZE, 3);
   
 }
 
@@ -38,9 +41,12 @@ Now I am going to choose another example of code that shows one of my favourite 
 ``
 
 function draw() {
+
   background(220);
+  
   image(img,0,0)
-       filter(BLUR, 6);
+  
+  filter(BLUR, 6);
 }
 
 ``
