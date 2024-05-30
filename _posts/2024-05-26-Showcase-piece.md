@@ -15,38 +15,38 @@ Along with this, I have also added the feature where you are able to spin and zo
 
 Another feature that you can see that I have added to this showcase piece is I have made it so the structure spins by itself as a whole, which is a technique that I have previously used in my other pieces of work in my 3D modelling blog post. Along with the 3D shapes having an ambient lighting texture that have multiple different colours where you can really see the shapes 3D properties. 
 
-``
+```
 
 let radius = width * 1.5;
 
-,,
+```
 
 This line of code is how I am able to size each sphere as this is the radius property of the shape and I am multiplying the width by 1.5. The reason for this is because so that I can have the whole structure fit in the canvas and the spheres wont be to spread out from one another making it more noticable what the structure is actually meant to be (an atom).
 
-``
+```
 
 orbitControl();
 
-``
+```
 
 This line of code is simple yet plays a vital role to the end product. This code allows the user, who is viewing the code, to be able to zoom in in out and also allow the them to move the entire of the atom struture so that they are able to look at it at different angles and perspectives.
 
-``
+```
 
 rotateZ(frameCount * 0.01);
       rotateX(frameCount * 0.01);
       rotateY(frameCount * 0.01);
 
-``
+```
 
 These lines of code are used to set the speed that the structured atoms moves at which is intune with the framecount. So rotateX and rotateY control the speed that the x and y axis of the shape moves at, so here I have set the speed to "framecount * 0.01" so that the structutr moves at a slow pace where you can see the object turning. If I was to change the 0.01 to a higher number, the pace that the structure moves at on its axis would move alot faster.
 
-``
+```
 
    let a = (j / 12) * PI;
       let b = (i / 12) * PI;
 
-``
+```
 
 What this code does is basically form the shape of the structure. This part of the code here, I had used it from a reference page on p5js.editor where there was a piece of work that did something very similar to this is the sense that it also had its own structure also. So, after playing with this line of code, I could straight away see a huge difference in what could happen to the structure. If I was to change the 12 variable on the first line the shape would almost squeeze back into itself and create a whole new structure which is visible from the image below:
 
