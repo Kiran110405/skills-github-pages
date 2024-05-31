@@ -7,7 +7,7 @@ This blog is intended to demonstrate my final showcase piece, where I decide to 
 
 The reason for why I have chosen 3D modelling is because I find them to the most interesting out of them all. That I was able to produce a psinning 3D like image on a flat, 2D, screen. While working with the 3D shapes they stood out to me more so than the random walkers or images and though that the 3D shapes had more to express out of them and that I could do more creative work with them and work with these shapes in different ways. 
 
-[My Showcase piece](/skills-github-pages/creativeCode/3D modelling_3/index.html)
+[My Showcase piece](/skills-github-pages/creativeCode/3D modeling_3/index.html)
 
 Through this link that is above, you will be able to access my final showcase piece. As you can see, via the link, I used the idea of 3D modelling to create something that I is extremely different to work/experiments that I have already done in my 3D modelling blog post. For my final showcase I have made a piece of work whereby there are multiple, small 3D shapes that are placed in formation and take a particilar shape. The shape that I have made was almost an atom like structure as I wanted to make this piece of work resemble an atom. As the idea that I am working with in the p5js.editor is 3D modelling and all 3D objects in life are all made up of atoms, so I thought that for my showcase piece, it would be a good idea to create an atom like structure using 3D shapes. 
 
